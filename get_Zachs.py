@@ -12,10 +12,7 @@ from bs4 import BeautifulSoup
 import os
 from selenium.webdriver.common.by import By
 #import geckodriver_autoinstaller
-'''
-Modified code from TinyEarn package: 
-URL: https://github.com/hussien-hussien/TinyEarn/blob/13026dca8c4ccf110d2ab3fdbcb487899a84c408/TinyEarn/TinyEarn.py#L121
-'''
+
 class Zachs():
     '''
     This class scrapes Zacks.com to get earnings data from a companies earnings reports.
