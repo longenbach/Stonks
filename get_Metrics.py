@@ -21,7 +21,7 @@ class Metrics():
 		stock_activity = zack_section1.find_all('dd')
 		stock_key_earnings = zack_section2.find_all('dd')
 
-		stats = {}
+		stats = {} 
 		stats["Stock"] = [ticker]
 		stats["EPS_Qtr_estMA"] = [self.__clean_val(stock_key_earnings[1].get_text())] ## Zacks Most Accurate -> Estimate Quarterly Earnings per Share 
 		stats["EPS_Qtr_est"] = [self.__clean_val(stock_key_earnings[2].get_text())] ## Consensus Estimate Quarterly Earnings per Share 
