@@ -1,6 +1,6 @@
-# Stonks
+# S&P500 Metrics
 
-P/E, EPS, PEG, P/S ratios for S&P500
+Scripts to web scrape: P/E, EPS, PEG, P/S ratios for S&P500
 
 
 ### zsh: command not found:
